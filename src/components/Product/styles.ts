@@ -21,12 +21,14 @@ export const Products = styled.div`
   display: flex;
   justify-content: space-around;
 
-  div {
+div {
+    width: 9rem;
+    height: 9rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
+}
 
   svg {
     font-size: 3rem; 
