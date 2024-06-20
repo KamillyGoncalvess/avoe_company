@@ -34,7 +34,6 @@ export function InstagramCarousel() {
 
   useLayoutEffect(() => {
     if (carousel.current) {
-      console.log(carousel.current.scrollWidth, carousel.current.offsetWidth);
       setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
     }
   }, [feedList]);
