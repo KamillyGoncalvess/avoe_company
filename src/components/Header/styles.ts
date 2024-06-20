@@ -54,7 +54,7 @@ export const ImageOverlay = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: 99%;
+  height: 99.5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,6 +67,10 @@ export const OverlayText = styled.p`
   font-size: 1.5em;
   text-align: center;
   margin: 0 20px;
+
+    @media (max-width: 430px) {
+    font-size: 87.5%;
+  }
 `
 
 export const OverlayTitle = styled.p`
