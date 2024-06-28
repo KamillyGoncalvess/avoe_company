@@ -16,7 +16,7 @@ export function InstagramCarousel() {
   const [feedList, setFeedList] = useState<IFeedItem[]>([]);
 
   async function getInstaFeed() {
-    const token = process.env.REACT_APP_INSTA_TOKEN;
+    const token = 'IGQWRPOS14Q1FKU0QwcW5Tbl9sTXJ3R2puSlpCcmxNNWc4WExFSHlwNjFPMVNhb1pLU0V4RHR6VlJDNFNfTDM4SWFZALWN4VW84eHN2TzJhOGtYQUlSR2dlcU1FQXVkUnBwSTBSV0NjZAktFMnRXbmVyNjBMMHBlWEkZD';
     const fields = "media_url,media_type,permalink";
     const url = `https://graph.instagram.com/me/media?access_token=${token}&fields=${fields}`;
   
